@@ -10,3 +10,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 -   CSS vanilla
 
 ### Deploy of the webpage
+
+https://wisdum-dev.github.io/nft-preview-card-component-main/
