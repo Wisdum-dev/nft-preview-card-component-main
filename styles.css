@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card-nft {
+    background-color: hsl(216, 50%, 16%);
+    width: 290px;
+    height: 530px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px hsl(215, 100%, 6%);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-equilibrium {
+    background-image: url(./images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+    width: 280px;
+    height: 280px;
+    margin-top: 8px;
+}
+
+.color-img {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 235px;
+    transition: 0.4s;
+}
+
+.color-img:hover {
+    background-image: url(./images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 1s background-color;
+}
+
+.title-nft {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.p-nft {
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.eth-time {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethereum-p {
+    background-image: url(./images/icon-ethereum.svg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 0px 19px;
+    color: hsl(178, 100%, 50%);
+    background-position: 1px;
+}
+
+.timeleft-p {
+    background-image: url(./images/icon-clock.svg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 0px 27px;
+    color: hsl(215, 51%, 70%);
+    background-position: 1px;
+}
+
+.line {
+    width: 90%;
+    border: 1px solid hsl(215, 32%, 27%);
+    opacity: 0.5;
+}
+
+.autor-nft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.avatar {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.autornft-p {
+    color: hsl(215, 51%, 70%);
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.autornft-a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.autornft-a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.title-nft:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
